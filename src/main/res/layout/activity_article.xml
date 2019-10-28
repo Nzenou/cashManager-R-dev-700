@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@color/navbar"
+            android:orientation="horizontal"
+            android:id="@+id/article1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context=".Article">
+
+                <TextView
+                    android:id="@+id/NameArticle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price2"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price3"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price4"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart5"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price5"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart6"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price6"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart7"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price7"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle8"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart8"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price8"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle9"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart9"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price9"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price10"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NameArticle11"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="Gants de boxe"
+                    android:textColor="@color/article"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/AddCart11"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/navbar"
+                    android:text="Add to cart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Price11"
+                android:layout_width="186dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@color/prix"
+                android:gravity="center"
+                android:text="50€"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
